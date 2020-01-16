@@ -1,0 +1,16 @@
+      <!-- 英文效果正常，中文字垂直居中会有问题 -->
+
+
+      <svg width="400" height="72" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <!-- <polygon points="20 0 0 20 0 250 170 250 200 230 200 0" fill="green" /> -->
+
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#05a" />
+            <stop offset="100%" stop-color="#0a5" />
+          </linearGradient>
+        </defs>
+        <text text-anchor="middle" x="50%" y='40' textLength="400" dominant-baseline="middle"
+          lengthAdjust="spacingAndGlyphs" font-size="40" stroke-width="1"
+          stroke="url(#gradient)">沧州临港有毒有害和恶臭气体预警平台</text>
+      </svg>
